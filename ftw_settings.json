@@ -1,0 +1,66 @@
+{
+    /*********************
+    General settings
+    *********************/
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [79],
+    // insert newline in end of file
+    "files.insertFinalNewline": true,
+    // don't show workbench
+    "workbench.activityBar.visible": false,
+    // file associations
+    "files.associations": {
+        "*.zcml": "xml"
+    },
+    // trailing spaces
+    "trailing-spaces.highlightCurrentLine": false,
+    "trailing-spaces.syntaxIgnore": [
+        "markdown"
+    ],
+    // .rst options
+    "restructuredtext.linter.executablePath": "/Users/busykoala/src/doc8/venv/bin/doc8",
+    "restructuredtext.confPath": "${workspaceFolder}/source",
+    "restructuredtext.builtDocumentationPath": "${workspaceRoot}/build/html",
+    // exclude in autocomplete search
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/chameleon-cache": true,
+        "**/parts": true,
+        "**/src": true,
+        "**/packages": true,
+    },
+    // do not show in nerd tree
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true,
+        "**/.idea": true,
+    },
+    // ???
+    "search.useIgnoreFiles": false,
+    "extensions.ignoreRecommendations": false,
+    /*********************
+    Python specific
+    *********************/
+    // linter
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Users/busykoala/bin/flake8",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintUseMinimalCheckers": false,
+    // formatter
+    "python.formatting.autopep8Path": "/Users/busykoala/bin/autopep8",
+    // debugger
+    "python.analysis.logLevel": "Trace",
+    // language server
+    "python.jediEnabled": false,
+    // isort (import sort)
+    "python.sortImports.path": "/Users/busykoala/bin/",
+    "python.sortImports.args": ["-sl"],
+    /*********************
+    Javascript specific
+    *********************/
+    "eslint.packageManager": "yarn",
+}
