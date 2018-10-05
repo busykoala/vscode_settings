@@ -55,7 +55,7 @@
     // debugger
     "python.analysis.logLevel": "Trace",
     // language server
-    "python.jediEnabled": false,
+    "python.jediEnabled": true,
     // isort (import sort)
     "python.sortImports.path": "/Users/busykoala/bin/",
     "python.sortImports.args": ["-sl"],
@@ -63,4 +63,5 @@
     Javascript specific
     *********************/
     "eslint.packageManager": "yarn",
+    "python.linter": "/Users/busykoala/bin/flake8",
 }
