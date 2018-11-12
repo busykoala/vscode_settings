@@ -1,0 +1,26 @@
+########################
+list ext  > code --list-extensions
+ins ext   > code --install-extension some.extension
+unin ext  > code --uninstall-extension some.extension
+########################
+
+alexdima.copy-relative-path
+DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
+donjayamanne.githistory
+DotJoshJohnson.xml
+eamodio.gitlens
+esbenp.prettier-vscode
+freakypie.code-python-isort
+HookyQR.beautify
+lextudio.restructuredtext
+mrorz.language-gettext
+ms-python.python
+ms-vscode.csharp
+octref.vetur
+piotrpalarz.vscode-gitignore-generator
+sdras.vue-vscode-snippets
+shardulm94.trailing-spaces
+tht13.python
+Tyriar.sort-lines
+yzhang.markdown-all-in-one
