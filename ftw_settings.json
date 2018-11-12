@@ -103,4 +103,6 @@
     ],
     "eslint.autoFixOnSave": true,
     "editor.formatOnSave": true,
+    // prevent conflict between vetur snippets and sarah snippets
+    "vetur.completion.useScaffoldSnippets": false,
 }
