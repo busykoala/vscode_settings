@@ -26,33 +26,21 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/chameleon-cache": true,
-        "**/packages": true,
         "**/parts": true,
     },
-    // tabsize per filetype
-    "[python]": {
-        "editor.tabSize": 4
-    },
-    "[html]": {
-        "editor.tabSize": 2
-    },
-    "[css]": {
-        "editor.tabSize": 2
-    },
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
+    // include omelette
+    "python.autoComplete.extraPaths": ["${workspaceFolder}/parts/omelette", ],
     // do not show in nerd tree
     "files.exclude": {
-        "**/.git": true,
         "**/.DS_Store": true,
         ".vscode": true,
         "**/__pycache__": true,
         "**/**/*.pyc": true,
         "**/.idea": true,
     },
-    // ???
+    // cmd+p also search in gitignored
     "search.useIgnoreFiles": false,
+    // whether to show recommendations
     "extensions.ignoreRecommendations": false,
     /*********************
     Python specific
@@ -72,10 +60,10 @@
     "python.sortImports.path": "/Users/busykoala/.pyenv/shims/isort",
     "python.sortImports.args": ["-sl"],
     // Limits the depth of the symbol tree in the document outline.
-    // "python.analysis.symbolsHierarchyDepthLimit": 3,
+    // "python.analysis.symbolsHierarchyDepthLimit": 5,
     "python.linting.pylintCategorySeverity.convention": "Hint",
     "python.linting.pylintCategorySeverity.warning": "Error",
-    // "python.analysis.downloadChannel": "daily",
+    "python.analysis.downloadChannel": "daily",
 
     /*********************
     Javascript specific
@@ -83,26 +71,7 @@
     "eslint.packageManager": "yarn",
     "python.linter": "/usr/local/bin/flake8",
     "editor.fontSize": 11,
-
-    /*********************
-    Vue specific
-    **********************/
-    "vetur.validation.template": false,
-    "eslint.validate": [{
-            "language": "vue",
-            "autoFix": true,
-        },
-        {
-            "language": "html",
-            "autoFix": true,
-        },
-        {
-            "language": "javascript",
-            "autoFix": true,
-        },
-    ],
-    "eslint.autoFixOnSave": true,
-    "editor.formatOnSave": true,
-    // prevent conflict between vetur snippets and sarah snippets
+    "editor.largeFileOptimizations": false,
+    // Use sara drasner snippets instead of veturs
     "vetur.completion.useScaffoldSnippets": false,
 }
