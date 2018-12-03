@@ -13,6 +13,7 @@ eamodio.gitlens
 esbenp.prettier-vscode
 freakypie.code-python-isort
 HookyQR.beautify
+jmrog.vscode-nuget-package-manager
 lextudio.restructuredtext
 mrorz.language-gettext
 ms-python.python
