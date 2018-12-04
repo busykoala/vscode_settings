@@ -46,10 +46,11 @@
     Python specific
     *********************/
     // linter
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/Users/busykoala/bin/pylint",
+    "python.linting.pylintUseMinimalCheckers": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "/usr/local/bin/flake8",
-    "python.linting.pylintEnabled": false,
-    "python.linting.pylintUseMinimalCheckers": false,
     // formatter
     "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
     // debugger
