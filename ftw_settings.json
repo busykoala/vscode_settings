@@ -55,11 +55,14 @@
     "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
     // debugger
     "python.analysis.logLevel": "Trace",
-    // language server
+    // ms python language server
     "python.jediEnabled": false,
-    // isort (import sort)
-    "python.sortImports.path": "/Users/busykoala/.pyenv/shims/isort",
+    // sort imports (source, args -> one per line, on save)
+    "python.sortImports.path": "/Users/busykoala/bin/isort",
     "python.sortImports.args": ["-sl"],
+    "editor.codeActionsOnSave": {
+		"source.organizeImports": true,
+	},
     // Limits the depth of the symbol tree in the document outline.
     // "python.analysis.symbolsHierarchyDepthLimit": 5,
     "python.linting.pylintCategorySeverity.convention": "Hint",
