@@ -19,13 +19,11 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/chameleon-cache": true,
-        "**/parts": true,
     },
     "python.autoComplete.extraPaths": [
         "${workspaceFolder}/parts/omelette",
     ],
-    // Beta and Daily
-    "python.analysis.downloadChannel": "daily",
+    // Beta
     "python.analysis.downloadChannel": "beta",
     /*********************
         Javascript
@@ -34,9 +32,12 @@
     /*********************
         Other settings
     *********************/
+    // search in symlinks (needs useIgnoreFiles)
+    "search.followSymlinks": true,
+    "search.useIgnoreFiles": false,
     // file association for xml files
     "files.associations": {
-        "*.zcml": "xml"
+        "*.zcml": "xml",
     },
     // two trailing spaces in md are a newline
     "trailing-spaces.syntaxIgnore": [
@@ -53,10 +54,19 @@
     },
     // sort imports (source, args -> one per line, on save)
     "python.sortImports.path": "/Users/busykoala/bin/isort",
-    "python.sortImports.args": ["-sl"],
+    // "python.sortImports.args": ["-sl"],
     "editor.codeActionsOnSave": {
         "source.organizeImports": true,
     },
     // debugging
     "python.analysis.logLevel": "Trace",
+    "window.zoomLevel": 0,
+    "git.autofetch": true,
+    // statusbarerror plugin
+    "statusbarerror.wholeLine.show": true,
+    "statusbarerror.wholeLine.errorColor": "transparent",
+    "statusbarerror.wholeLine.errorFontColor": "rgba(255, 150, 150, 0.7)",
+    "statusbarerror.wholeLine.warningColor": "transparent",
+    "statusbarerror.wholeLine.warningFontColor": "rgba(255, 255, 150, 0.6)",
 }
+
