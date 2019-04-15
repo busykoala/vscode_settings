@@ -4,7 +4,10 @@ ins ext   > code --install-extension some.extension
 unin ext  > code --uninstall-extension some.extension
 ########################
 
+AffenWiesel.matlab-formatter
 alexdima.copy-relative-path
+batisteo.vscode-django
+CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 donjayamanne.githistory
@@ -12,16 +15,26 @@ DotJoshJohnson.xml
 eamodio.gitlens
 esbenp.prettier-vscode
 freakypie.code-python-isort
+Gimly81.matlab
+Gruntfuggly.todo-tree
 HookyQR.beautify
 jmrog.vscode-nuget-package-manager
+JoeBerria.statusbarerror
+karigari.chat
 lextudio.restructuredtext
+magicstack.MagicPython
 mrorz.language-gettext
 ms-python.python
 ms-vscode.csharp
+ms-vsliveshare.vsliveshare
+ms-vsliveshare.vsliveshare-audio
+ms-vsliveshare.vsliveshare-pack
 octref.vetur
 piotrpalarz.vscode-gitignore-generator
 sdras.vue-vscode-snippets
 shardulm94.trailing-spaces
 tht13.python
 Tyriar.sort-lines
+vscodevim.vim
+wholroyd.jinja
 yzhang.markdown-all-in-one
